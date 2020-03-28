@@ -1,0 +1,32 @@
+
+.authbox {
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+   
+}
+ @media only screen and (max-width: 600px) {
+    .authbox2{
+        padding: 0px !important;
+        padding-top: 70px !important;
+    }
+    .locatebtn{
+        width: 0%;
+    }
+    .logo{
+        text-align: center;
+    }
+    .btnLogin{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .btnsignup{
+        width: 100%;
+        margin-top: 20px;
+    }
+  }
+  .space{
+    background-color: orange;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "react-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "admin": "cd admin && npm start",
+    "shop": "cd shop && npm start",
+    "dev": "concurrently \"npm run client\" \"npm run admin \" \"npm run shop\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RacoonProcyon/React-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RacoonProcyon/React-express/issues"
+  },
+  "homepage": "https://github.com/RacoonProcyon/React-express#readme",
+  "dependencies": {
+    "concurrently": "^5.1.0",
+    "google-map-react": "^1.1.7",
+    "react-google-maps": "^9.4.5"
+  }
+}

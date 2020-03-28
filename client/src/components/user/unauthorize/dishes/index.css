@@ -1,0 +1,18 @@
+.scroll:hover{
+    border: groove !important;
+    background-color: #f8f9fa !important;
+}
+.sideScroll:hover{
+    background-color: orange !important;
+}
+.dishesScroll{
+    overflow: auto;
+    max-height: 600px;
+}
+.dishesScroll::-webkit-scrollbar {
+    display: none;
+}
+.linkSet {
+    color: black !important;
+    font-family: -webkit-pictograph;
+}

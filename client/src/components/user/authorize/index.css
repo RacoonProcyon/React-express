@@ -1,0 +1,15 @@
+.sideTxt:hover{
+    background-color: #e6e6e194 !important;
+    padding: 10px;
+}
+.rowBox {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 3pc;
+    padding-top: 3pc;
+}
+@media only screen and (max-width: 768px) {
+.btnedit{
+    float: left !important;
+    margin-top: 20px !important;
+}
+}
